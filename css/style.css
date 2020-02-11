@@ -117,7 +117,7 @@ ul {
   width: 100%;
   margin: auto;
   border-radius: 5px;
-  animation: img11 2s forwards ease-in-out;
+  animation: img11 2s forwards ease-in-out 1s;
   transform: translate3d(-500px,-500px,-500px);
   opacity: 0.4;
 }
