@@ -95,6 +95,11 @@ ul {
 }
 
 /* Showcase */
+/* Hidden_show */
+.show1 {
+  visibility: hidden;
+  opacity: 0;
+}
 #showcase {
   padding: 50px 30px;
   background: var(--secondary-color);
@@ -219,7 +224,7 @@ ul {
 }
 
 /* Show_img */
-#show {
+#show_img {
   height: auto;
   padding: 20px;
   margin: 20px 0;
@@ -233,15 +238,15 @@ ul {
   align-items: center;
 }
 
-#show .container .grid img:nth-child(2) {
+#show_img .container .grid img:nth-child(2) {
   height: 263px;
 }
 
-#show .container .grid img {
+#show_img .container .grid img {
   width: 100%;
 }
 
-#show .container .btn {
+#show_img .container .btn {
   text-transform: uppercase;
   width: 100%;
   text-align: center;
@@ -250,11 +255,12 @@ ul {
   margin-top: 3rem;
 }
 
+/* FAQS */
 #faqs {
   height: auto;
   padding: 20px;
 }
-
+/* People saying */
 #people_saying {
   height: auto;
   padding: 20px;
@@ -264,6 +270,13 @@ ul {
 #last_chance {
  text-align: center;
  margin-top: 3rem;
+}
+
+/* Show_visi */
+.show1.show {
+  visibility: visible;
+  opacity: initial;
+  transition: all 3s ease-in-out;
 }
 
 /* Social */
