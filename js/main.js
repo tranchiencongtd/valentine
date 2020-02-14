@@ -29,7 +29,7 @@ window.addEventListener('scroll', run);
 
 // Countdown valentine
 // Set ngay ma ta dem
-var countDownDate = new Date("Feb 13, 2020 23:59:00").getTime();
+var countDownDate = new Date("Feb 13, 2021 23:59:00").getTime();
 
 // Cap nhat sau khi down moi 1 s
 var x = setInterval(function() {
@@ -53,6 +53,6 @@ var x = setInterval(function() {
   // Neu dem xong ghi cai gi do that thu zi
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("dem_nao").innerHTML = "CHUA TIM DUOC CACH TU UPDATE .-.";
+    document.getElementById("dem_nao").innerHTML = ".......";
   }
 }, 1000);
